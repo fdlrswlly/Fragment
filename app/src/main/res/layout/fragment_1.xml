@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment1">
+
+    <!-- TODO: Update blank fragment layout -->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/fad" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:text="Fadhly Aulia Roeswelly"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="229dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:text="Tempat Tanggal Lahir : Bandung, 07 April 1999"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:text="Asal Kampus : Politeknik Enjinering Indorama"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:text="Jurusan : Teknologi Rekayasa Perangkat Lunak"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:text="Alamat : Jl.Flamboyan III"/>
+</LinearLayout>
+</FrameLayout>
